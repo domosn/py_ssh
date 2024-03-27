@@ -4,9 +4,16 @@
 
 藉由讀取 Excel 檔案中的 SSH 設定，並批次連接到遠端伺服器執行指令。
 
-## 安裝所需模組
+## 安裝
 ```bash
-pip install paramiko openpyxl
+# 複製專案至本機
+$ git clone https://github.com/domosn/python-MassSSH.git
+
+# 更換當前位置/資料夾 python-MassSSH
+$ cd python-MassSSH
+
+# 安裝程式所需模組
+$ python3 -m pip install paramiko openpyxl
 ```
 
 ## 使用方法
